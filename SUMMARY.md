@@ -4,7 +4,7 @@
 
 ## Java
 
-* [Untitled](java/untitled.md)
+* [Effective Java Notes](java/untitled.md)
 
 ## Kotlin
 
