@@ -12,5 +12,5 @@
 
 ## Python
 
-* [Untitled](python/untitled.md)
+* [MISC](python/untitled.md)
 
