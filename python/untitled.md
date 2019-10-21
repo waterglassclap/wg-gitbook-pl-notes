@@ -151,6 +151,20 @@ def pprint_tree(node, file=None, _prefix="", _last=True):
     pprint_tree(node.right, file, _prefix, True)  
 ```
 
+### Using Sum for conditional sum
+
+```python
+sum(x == True for x in sieve)
+```
+
+### SQRT
+
+```python
+math.sqrt(n)
+# or
+n ** 0.5
+```
+
 
 
 ## Reference
