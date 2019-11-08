@@ -165,6 +165,36 @@ math.sqrt(n)
 n ** 0.5
 ```
 
+### Union Find Example
+
+```python
+class Solution:
+    def smallestStringWithSwaps(self, s: str, pairs: List[List[int]]) -> str:
+        sLen = len(s)
+        conn = [i for i in range(sLen)]
+        
+        def union(idx):
+            while conn[idx] != idx:
+                conn[idx] = conn[conn[idx]]
+                idx = conn[idx]
+            return idx
+
+        for pair in pairs:
+            conn[union(pair[0])] = union(pair[1])
+
+        groups = {i:[] for i in range(sLen)}
+        for i in range(sLen):
+            groups[union(i)].append(i)
+        
+        result = list(s)
+        for indices in groups.values():
+            sortedList = sorted(indices, key=lambda x:s[x])
+            for i in range(len(indices)):
+                result[indices[i]] = s[sortedList[i]]
+
+        return ''.join(result)
+```
+
 
 
 ## Reference
