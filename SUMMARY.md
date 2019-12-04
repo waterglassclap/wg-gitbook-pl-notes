@@ -12,6 +12,6 @@
 
 ## Python
 
-* [MISC](python/untitled.md)
+* [MISC](python/misc.md)
 * [Useful Links](python/useful-links.md)
 
