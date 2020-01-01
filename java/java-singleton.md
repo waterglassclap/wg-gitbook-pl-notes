@@ -70,7 +70,7 @@ protected Class<?> loadClass(String name, boolean resolve)
 
 위 방식의 단점은 로드되는 시점에 인스턴스를 생성하기 때문에, 싱글톤으로 선언된 클래스가 많아질수록 사용하기도 전에 생성되는 인스턴스가 많아져 부담이 될 수 있다는 것이다.
 
-**2. Lazy Initialization**
+## **2. Lazy Initialization**
 
 ```java
 public class Foo {
@@ -128,7 +128,7 @@ Java의 모든 객체는 monitor lock 을 가지고 있다. static synchronized�
 
 위 방식의 단점은 매번 getInstance\(\)를 할 때마다 synchronized 로 실행되므로 효율이 떨어진다는 것이다. 인스턴스가 생성되는 시점에는 하나의 쓰레드만 접근이 가능해야 하지만, 그 이후 매 getInstance\(\) 요청 시에도 synchronized로 실행되는 것이 문제이다.
 
-**3. Doubly Checked Locking**
+## **3. Doubly Checked Locking**
 
 ```java
 public class Foo {
@@ -154,7 +154,7 @@ Lazy initialization 방법에서 getInstance\(\)시에 매번 synchronized를 �
 또 volatile 키워드로 consistency 를 보장하고 코드가 재배치되는 걸 막는다 \(java 5 이상\).  
 링크 참고 : [https://stackoverflow.com/questions/7855700/why-is-volatile-used-in-double-checked-locking](https://stackoverflow.com/questions/7855700/why-is-volatile-used-in-double-checked-locking)
 
-**4. Enum**
+## **4. Enum**
 
 ```java
 public enum Foo {
@@ -165,7 +165,7 @@ public enum Foo {
 enum은 열거형으로 초기화가 컴파일 타임에 결정되고, 단 하나의 인스턴스가 생기도록 보장된다. \(하지만 enum 내부에 선언되는 메서드는 구현 방식에 따라 thread safe 하지 않을 수도 있다\)  
 방식은 깔끔하지만 enum은 컴파일 타임에 초기화가 진행되기 때문에 특정 상황에서는 활용하기 어려울 수 있다.
 
-**5. LazyHolder**
+## **5. LazyHolder**
 
 ```java
 public class Foo {
@@ -185,7 +185,7 @@ public class Foo {
 
 정리하면, FooHolder를 사용함으로서 1번 방식의 문제를 해결하고 thread safety를 보장하는 방법이다.
 
-**References**
+## **References**
 
 [http://happinessoncode.com/2017/10/04/java-intrinsic-lock/](http://happinessoncode.com/2017/10/04/java-intrinsic-lock/)  
 [https://www.jpstory.net/2015/03/02/mutex-semaphore-monitor/](https://www.jpstory.net/2015/03/02/mutex-semaphore-monitor/)  
