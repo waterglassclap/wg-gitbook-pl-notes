@@ -5,7 +5,8 @@
 ## **1. Eager Initialization**
 
 ```java
-public class Foo {private static Foo instance = new Foo(); 
+public class Foo {
+    private static Foo instance = new Foo(); 
     private Foo() {}
     
     public static Foo getInstance() {

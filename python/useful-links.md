@@ -10,10 +10,6 @@
 
 {% embed url="https://hamait.tistory.com/753" %}
 
-## Iterator vs Generator
-
-{% embed url="https://mingrammer.com/translation-iterators-vs-generators/" %}
-
 
 
 
