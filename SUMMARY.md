@@ -5,6 +5,7 @@
 ## Java
 
 * [Effective Java Notes](java/untitled.md)
+* [Java Singleton](java/java-singleton.md)
 
 ## Kotlin
 
