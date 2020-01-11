@@ -7,6 +7,7 @@
 * [Effective Java Notes](java/untitled.md)
 * [Java Singleton](java/java-singleton.md)
 * [Type erasure and Generics](java/type-erasure-and-generics.md)
+* [== vs equals](java/vs-equals.md)
 
 ## Kotlin
 
@@ -20,4 +21,8 @@
 ## Haskell
 
 * [Overview](haskell/overview.md)
+
+## Javascript
+
+* [Untitled](javascript/untitled.md)
 
