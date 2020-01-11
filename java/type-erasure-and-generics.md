@@ -132,7 +132,7 @@ public static void printArray(Comparable[] array) {
 }
 ```
 
-위와 같이 변환된
+위와 같이 변환된다.
 
 ## References
 
