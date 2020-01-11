@@ -78,10 +78,10 @@ public class EqualsAndHashCodeExample {
   protected boolean canEqual(Object other) {
     return other instanceof EqualsAndHashCodeExample;
   }
-}
+} 
 ```
 
-##  References
+## References
 
 {% embed url="https://marobiana.tistory.com/130" %}
 
