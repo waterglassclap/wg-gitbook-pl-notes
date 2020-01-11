@@ -6,6 +6,7 @@
 
 * [Effective Java Notes](java/untitled.md)
 * [Java Singleton](java/java-singleton.md)
+* [Type erasure and Generics](java/type-erasure-and-generics.md)
 
 ## Kotlin
 
