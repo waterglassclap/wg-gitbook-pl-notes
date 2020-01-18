@@ -10,17 +10,20 @@
 * [== vs equals](java/vs-equals.md)
 * [Checked Exception vs Unchecked Exception](java/checked-exception-vs-unchecked-exception.md)
 * [JVM](java/jvm.md)
+* [GCs in Java](java/gcs-in-java.md)
 
 ## Kotlin
 
 * [Overview](kotlin/untitled.md)
 * [Java @override vs Kotlin override](kotlin/java-override-vs-kotlin-override.md)
 * [run vs apply vs let vs also vs with](kotlin/run-vs-apply-vs-let-vs-also-vs-with.md)
+* [Coroutine](kotlin/coroutine.md)
 
 ## Python
 
 * [MISC](python/misc.md)
 * [Useful Links](python/useful-links.md)
+* [CPython vs PyPy](python/cpython-vs-pypy.md)
 
 ## Haskell
 
