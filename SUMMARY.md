@@ -9,6 +9,7 @@
 * [Type erasure and Generics](java/type-erasure-and-generics.md)
 * [== vs equals](java/vs-equals.md)
 * [Checked Exception vs Unchecked Exception](java/checked-exception-vs-unchecked-exception.md)
+* [JVM](java/jvm.md)
 
 ## Kotlin
 
