@@ -14,7 +14,9 @@
 
 {% embed url="https://mingrammer.com/translation-iterators-vs-generators/" %}
 
+## Built-in functions
 
+{% embed url="https://wikidocs.net/32" %}
 
 
 
