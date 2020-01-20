@@ -195,6 +195,13 @@ class Solution:
         return ''.join(result)
 ```
 
+### Check if number is perfect square
+
+```python
+root = math.sqrt(number)
+int(root + 0.5) ** 2 == number
+```
+
 
 
 ## Reference
