@@ -200,6 +200,8 @@ class Solution:
 ```python
 root = math.sqrt(number)
 int(root + 0.5) ** 2 == number
+
+# 0.5 is for float square ambiguity when number is big enough (?)
 ```
 
 
