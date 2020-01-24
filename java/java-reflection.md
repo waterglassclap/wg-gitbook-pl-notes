@@ -1,7 +1,9 @@
 # Java Reflection
 
 re·flec·tion : the throwing back by a body or surface of light, heat, or sound without absorbing it.  
-Java Reflection : **to get Class information with Object**
+Java Reflection : **to get Class information with Object.**
+
+Java class file is compiled into bytecode, placed in static area. That is, if you know the class name you can access this area and get information of the class.
 
 ### Example
 
@@ -51,6 +53,8 @@ Object newObj = constructors[0].newInstance(arglist);
 {% embed url="https://gyrfalcon.tistory.com/entry/Java-Reflection" %}
 
 {% embed url="https://loco-motive.tistory.com/31" %}
+
+{% embed url="https://woovictory.github.io/2019/01/04/Java-What-is-Reflection/" %}
 
 \*\*\*\*
 
