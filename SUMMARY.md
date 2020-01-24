@@ -21,8 +21,8 @@
 
 ## Python
 
+* [Overview](python/useful-links.md)
 * [MISC](python/misc.md)
-* [Useful Links](python/useful-links.md)
 * [CPython vs PyPy](python/cpython-vs-pypy.md)
 
 ## Haskell
