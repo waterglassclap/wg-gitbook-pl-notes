@@ -204,6 +204,34 @@ int(root + 0.5) ** 2 == number
 # 0.5 is for float square ambiguity when number is big enough (?)
 ```
 
+### Use Set in Python
+
+```python
+a = {1}
+a.put(2}
+a.remove(1)
+a.pop()
+if 3 in a:
+    print("3 in a")
+```
+
+### heapq
+
+```python
+import heapq
+
+nums = [1,2,3,4,5]
+minH, maxH = [], []
+
+#minHeap
+for num in nums:
+  heapq.heappush(minH, num)
+
+# maxHeap
+for num in nums:
+  heapq.heappush(maxH, (-num, num))  # (priority, value)
+```
+
 
 
 ## Reference
