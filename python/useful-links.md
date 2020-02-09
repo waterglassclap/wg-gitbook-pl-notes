@@ -24,7 +24,9 @@
 
 ## Union Find Example
 
-{% embed url="https://brownbears.tistory.com/460" %}
+{% embed url="https://charactermail.tistory.com/191" %}
+
+
 
 
 
