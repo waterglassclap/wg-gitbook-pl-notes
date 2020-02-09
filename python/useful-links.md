@@ -1,4 +1,4 @@
-# Useful Links
+# Overview
 
 ## Thread Safety
 
@@ -17,6 +17,14 @@
 ## Built-in functions
 
 {% embed url="https://wikidocs.net/32" %}
+
+## Heapq Module Usage
+
+{% embed url="https://www.daleseo.com/python-heapq/" %}
+
+## Union Find Example
+
+{% embed url="https://brownbears.tistory.com/460" %}
 
 
 
