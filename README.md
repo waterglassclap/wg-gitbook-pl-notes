@@ -1,4 +1,16 @@
 # Overview
 
-Programming Language Notes
+### Lambda Expression
+
+Executable function without identifier
+
+```text
+(parameters, ...) -> { ... }
+```
+
+
+
+
+
+
 
