@@ -232,6 +232,23 @@ for num in nums:
   heapq.heappush(maxH, (-num, num))  # (priority, value)
 ```
 
+### GCD
+
+```python
+def gcd(a, b):
+    if a < b:
+        (a, b) = (b, a)
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a
+
+def lcm(a, b):
+  gcdVal = gcd(a, b)
+  if gcdVal == 0:
+      return 0
+  return (a * b) / gcdVal
+```
+
 
 
 ## Reference
