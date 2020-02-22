@@ -200,7 +200,7 @@ int(root + 0.5) ** 2 == number
 
 ```python
 a = {1}
-a.put(2}
+a.put(2)
 a.remove(1)
 a.pop()
 if 3 in a:
