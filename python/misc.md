@@ -2,14 +2,6 @@
 
 ## Tips
 
-### Sort Item with Index
-
-```python
-from operator import itemgetter
-...
-sortedNumIndices, sortedNums = zip(*sorted(enumerate(nums), key=itemgetter(1)))
-```
-
 ### Bisect Usage
 
 ```python
