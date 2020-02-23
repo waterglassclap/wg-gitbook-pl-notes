@@ -26,6 +26,7 @@
 * [Overview](python/useful-links.md)
 * [MISC](python/misc.md)
 * [CPython vs PyPy](python/cpython-vs-pypy.md)
+* [Python Magic Method](python/python-magic-method.md)
 
 ## Haskell
 
