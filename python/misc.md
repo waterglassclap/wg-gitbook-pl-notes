@@ -241,7 +241,31 @@ def lcm(a, b):
   return (a * b) / gcdVal
 ```
 
+### Prime find with yield
 
+```python
+        def prime_gen():
+            n = 2
+            primes = []
+            while True:
+                if any((n % k) == 0 for k in primes):
+                    n += 1
+                    continue
+                primes.append(n)
+                yield n
+```
+
+### Prime Factors
+
+```python
+def prime_factors(n):
+            for i in itertools.chain([2], itertools.count(3, 2)):
+                if n <= 1:
+                    break
+                while n % i == 0:
+                    n //= i
+                    yield i
+```
 
 ## Reference
 
