@@ -27,6 +27,7 @@
 * [MISC](python/misc.md)
 * [CPython vs PyPy](python/cpython-vs-pypy.md)
 * [Python Magic Method](python/python-magic-method.md)
+* [Bisect by Key](python/bisect-by-key.md)
 
 ## Haskell
 
