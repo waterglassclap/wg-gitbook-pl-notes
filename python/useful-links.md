@@ -38,6 +38,12 @@ Special Method defined in class.
 
 {% embed url="http://schoolofweb.net/blog/posts/%ED%8C%8C%EC%9D%B4%EC%8D%AC-oop-part-6-%EB%A7%A4%EC%A7%81-%EB%A9%94%EC%86%8C%EB%93%9C-magic-method/" %}
 
+## Underscore in Python
+
+{% embed url="https://mingrammer.com/underscore-in-python/" %}
+
+
+
 
 
 
